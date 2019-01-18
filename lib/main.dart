@@ -5,12 +5,17 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
           title: Text('Easy List Reload'),
         ),
+        body: Card(child: Column(children: <Widget>[
+          Image.asset('assets/food.jpeg'),
+          Text('Food Paradise')
+        ],),),
       ),
     );
   }
