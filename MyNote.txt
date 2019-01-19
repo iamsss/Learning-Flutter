@@ -1,0 +1,9 @@
+Final vs Static 
+
+Final -> 
+proeprty set by outer class
+it cannot be reassigned with internal class
+but it can edittable means we can add or remove from instance like array
+
+Const ->
+it canot be changed ever
