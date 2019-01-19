@@ -3,7 +3,7 @@ import './products.dart';
 
 class ProductManager extends StatefulWidget {
   final String startingProduct;
-  ProductManager(this.startingProduct);
+  ProductManager({this.startingProduct = 'Sweets Tester'}); // Now Product MAnager has default value
 
   @override
     State<StatefulWidget> createState() {
