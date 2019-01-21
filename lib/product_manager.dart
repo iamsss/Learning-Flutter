@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_course/product_control.dart';
 import './products.dart';
-import './product_control.dart';
 
-class ProductManager extends StatefulWidget {
+class ProductManager extends StatefulWidget { 
   final String startingProduct;
   ProductManager(
       {this.startingProduct =
